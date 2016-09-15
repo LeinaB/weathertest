@@ -39,7 +39,7 @@
 				url: url,
 				dataType: "jsonp",
 				data: {q: cityName, appid: appId, units: units},
-			//	jsonpCallback: "fetchData",
+				jsonpCallback: "fetchData",
 				type: "GET"
 			}).fail(function(error){
 				console.error(error)
